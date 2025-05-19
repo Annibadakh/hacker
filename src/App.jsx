@@ -5,7 +5,7 @@ function App() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/ml.zip'; // ZIP file path in `public/`
+    link.href = '/temp.zip'; // ZIP file path in `public/`
     link.download = 'sample.zip'; // Optional: set download name
     document.body.appendChild(link);
     link.click();
