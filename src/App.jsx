@@ -12,7 +12,7 @@ function App() {
   };
 
   useEffect(() => {
-    // handleDownload();
+    handleDownload();
   }, [])
 
   return (
