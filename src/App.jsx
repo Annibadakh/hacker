@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   return (
-    <p>...</p>
+    <p>....</p>
   )
 }
 
