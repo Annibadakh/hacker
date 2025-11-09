@@ -5,7 +5,7 @@ function App() {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = '/temp.zip';
-    link.download = 'sample.zip';
+    link.download = 'ml.zip';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
